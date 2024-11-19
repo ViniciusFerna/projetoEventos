@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #221A1B; 
+    color: white;
+}
+.color-header {
+    background-color: #292021;
+    height: 75px;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.logo img {
+    height:8%;
+    width: 10%;
+    float: left;
+}
+
+.hero {
+    background-image: url(../img/pessoas.png);
+    height: 400px;
+    background-size: cover;
+    padding: 1px;
+    background-position: auto;
+}
+
+.hero-content {
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px, 2px, 2px, #292021;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, .6);
+    border-bottom: 2px solid;
+    padding: 16px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+    color: black;
+}
+
+article {
+    background-color: rgba(111, 89, 125, 0.5);
+    padding: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+article h2 {
+    border-bottom: 2px, solid, #ccc;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    color: black;
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 12px;
+}
+
+

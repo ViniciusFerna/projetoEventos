@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #292022; 
+    color: white;
+}
+
+.image-header {
+    height: 650px;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo img {
+    height:8%;
+    width: 10%;
+    float: left;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;    
+    justify-content: center;
+    
+}
+
+.menu a:hover {
+    color: rgb(112, 255, 112);
+}
+
+/* ------------------------------------------------------------------------ */  
+
+.box{
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #282324;
+    padding: 10px;
+    border-radius: 30px;
+    width: 30%;
+    font-size: medium;
+}
+fieldset{
+    border: 3px solid white;
+}
+legend{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: gray; 
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+    top: -10px;
+    font-size: 10px;
+    color: white;
+    left: 5px;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: gray;
+    font-weight: bold;
+}
+#submit:hover{
+    background-image: -moz-element(#221A1B);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,sss
+
+.inputUser{
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* ------------------------------------------------------------------------ */
+footer {
+    background-color: #292021;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 200px;
+    padding-top: 20px;
+    }
+    
+    .bottom-bar, .copyright-text, a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .bottom-bar, a:hover {
+        color: rgb(112, 255, 112);
+        text-align: center;
+    }
